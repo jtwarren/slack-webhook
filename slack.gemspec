@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'slack/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "slack"
+  spec.name          = "slack-webhook"
   spec.version       = Slack::VERSION
   spec.authors       = ["Jeffrey Warren"]
   spec.email         = ["jtwarren@alum.mit.edu"]
