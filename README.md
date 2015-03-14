@@ -7,7 +7,7 @@ A simple ruby gem for getting functionality out of Slack's webhooks.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'slack'
+gem 'slack-webhook'
 ```
 
 And then execute:
