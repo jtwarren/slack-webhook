@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jtwarren@alum.mit.edu"]
   spec.summary       = %q{Provides basic slack webhook functionality}
   spec.description   = ""
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jtwarren/slack-webhook"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
