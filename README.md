@@ -34,7 +34,7 @@ Example usage in capistrano to notify deployments
 ```ruby
 task :notify_start do
   if ['production', 'staging'].include?(fetch(:rails_env))
-    Slack.post("Deploying `#{fetch(:branch)}` to `#{fetch(:rails_env)}`")
+    Slack.post("Starting deployment of `#{fetch(:branch)}` to `#{fetch(:rails_env)}`")
   end
 end
 ```
