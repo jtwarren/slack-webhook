@@ -34,7 +34,7 @@ module Slack
     uri = URI(url)
     req = Net::HTTP::Post.new uri.path
 
-    req.body = {"channel" => channel, "username" => username, "text" => "<!channel> #{message}", "icon_emoji" => icon_emoji}.to_json
+    req.body = {"channel" => channel, "username" => username, "text" => "#{message}", "icon_emoji" => icon_emoji}.to_json
 
     res = Net::HTTP.start(uri.host, uri.port, :use_ssl => true) do |http|
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE
